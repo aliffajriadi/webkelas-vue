@@ -26,7 +26,7 @@ onMounted(() => {
       class="sm:text-5xl px-4 text-4xl text-center hover:underline relative z-10 transition-all duration-1000 ease-out"
       :class="titleVisible ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform -translate-y-16'"
     >
-      Welcome To IF D Class 24 Website
+      Welcome To IF D Class 24 Website!
     </a>
     
     <!-- Subtitle with fade-in animation -->
