@@ -8,7 +8,7 @@ const members = ref([
     id: 1,
     name: "Alif Fajriadi",
     role: "@alfjrd_", 
-    description: "Hidup tak sependek pola pikir mu",
+    description: "Hidup tak sependek penis laki-laki",
     imageUrl: "/alip1.jpeg",
     visible: false
   },
