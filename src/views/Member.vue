@@ -9,7 +9,7 @@ const members = ref([
     name: "Alif Fajriadi",
     role: "@alfjrd_", 
     description: "Hidup tak sependek penis laki-laki",
-    imageUrl: "/alip1.jpeg",
+    imageUrl: "/alif.jpeg",
     visible: false
   },
   {
@@ -99,7 +99,71 @@ const members = ref([
     description: "Rasakan kekuatan bola bijiku",
     imageUrl: "/rian.jpeg",
     visible: false
-  }
+  },
+  {
+    id: 13,
+    name: "Andre Nataniel",
+    role: "@dre",
+    description: "cape ngoding",
+    imageUrl: "/andre.jpeg",
+    visible: false
+  },
+  {
+    id: 14,
+    name: "Raymon Jefri",
+    role: "@rymndjfri_",
+    description: "iyaaa",
+    imageUrl: "/raymon.jpeg",
+    visible: false
+  },
+  {
+    id: 15,
+    name: "Auriel Almayda",
+    role: "@aurielalmayda",
+    description: "MESIN MESIN MESINNN",
+    imageUrl: "/auriel.jpeg",
+    visible: false
+  },
+  {
+    id: 16,
+    name: "Alamsyah",
+    role: "@alamsyahalamsyah176",
+    description: "hai cantik, mau ga jadi pacar abang",
+    imageUrl: "/alam.jpeg",
+    visible: false
+  },
+  {
+    id: 17,
+    name: "Rio putra",
+    role: "@rioputraaa._",
+    description: "bang udah bang",
+    imageUrl: "/rio.jpeg",
+    visible: false
+  },
+  {
+    id: 18,
+    name: "Rafif Ihsan",
+    role: "@rafifihsaan_s",
+    description: "bang udah bang",
+    imageUrl: "/rafif.jpeg",
+    visible: false
+  },
+  {
+    id: 19,
+    name: "Zahri",
+    role: "@zaaaaariiiie._",
+    description: "hai gantenk",
+    imageUrl: "/zahri.jpeg",
+    visible: false
+  },
+  {
+    id: 20,
+    name: "Elbrian",
+    role: "@elbriaann_",
+    description: "elbrian ganteng 123",
+    imageUrl: "/elbrian.jpg",
+    visible: false
+  },
 ]);
 
 const pageTitle = ref({
@@ -143,6 +207,7 @@ onMounted(() => {
           <img 
             :src="member.imageUrl" 
             :alt="member.name" 
+            loading="lazy"
             class="w-full h-auto object-contain transition-transform duration-300 hover:scale-110"
           />
         </div>
